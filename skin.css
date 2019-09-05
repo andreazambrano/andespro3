@@ -63,8 +63,11 @@ div.cnt-box-info .cnt-info, footer, .cnt-box-testimonials-bubble > p, [class*=bo
     border-color: #379cf4;
 }
 
-a, .counter .value span:last-child, .icon-box i, .cnt-box-info .cnt-info > div > span:last-child, .cnt-box-info .bottom-info, .btn-text, .menu-cnt > ul > li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, nav:not(.menu-transparent) .lan-menu > li:hover > a, .timeline > div:hover .badge p, .cnt-box-team:hover .caption h2, .cnt-box-top-icon > i, .datepicker-panel > ul > li:hover, .extra-field:before, .menu-inner li.active > a, .menu-inner li:hover > a, .table-alpins td:first-child, .accordion-list > li > a:before, .cnt-box-blog-side .icon-list i, .cnt-box-blog-top .icon-list i, .list-nav a:before, .cnt-box .caption p b, .cnt-box-side-icon > i, .countdown h3, .countdown p, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, nav .icon-list li > i {
+a, .counter .value span:last-child, .icon-box i, .cnt-box-info .bottom-info, .btn-text, .menu-cnt > ul > li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, nav:not(.menu-transparent) .lan-menu > li:hover > a, .timeline > div:hover .badge p, .cnt-box-team:hover .caption h2, .cnt-box-top-icon > i, .datepicker-panel > ul > li:hover, .extra-field:before, .menu-inner li.active > a, .menu-inner li:hover > a, .table-alpins td:first-child, .accordion-list > li > a:before, .cnt-box-blog-side .icon-list i, .cnt-box-blog-top .icon-list i, .list-nav a:before, .cnt-box .caption p b, .cnt-box-side-icon > i, .countdown h3, .countdown p, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, nav .icon-list li > i {
     color: #379cf4;
+}
+.cnt-box-info .cnt-info > div > span:last-child{
+     color: #f4b843;
 }
 
 .breadcrumb li a:hover, .light .breadcrumb li:not(:last-child) a:hover, .light .text-color, .text-color, .menu-inner .dropdown li:hover > a {
@@ -1352,7 +1355,7 @@ button.btn-text {
 }
 
 .cnt-box-info .extra-field, .media-box-reveal .extra-field {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 600;
     text-transform: uppercase;
     font-size: 11px;
