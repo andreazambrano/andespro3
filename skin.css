@@ -13,6 +13,8 @@
 COLORS
 -------------------------------------------------------------------
 */
+#header .nav-header ul li a span.icon-phone:after {
+  background: url(media/phone.png); }
 
 .lan-menu .dropdown > ul > li:not(:hover) > a, .media-box:not(.media-box-down) h2, .media-box h3, nav.light .dropdown > ul > li:not(:hover) > a, .light .breadcrumb li:not(:last-child) a, .menu-cnt > ul > li > ul li > a, .lan-menu .dropdown > ul > li > a, body > nav:not(.menu-side).scroll-menu .menu-cnt > ul > li > a, body > nav:not(.menu-side).scroll-menu .lan-menu > li > a, .controls-out.arrows-left .glide__arrow:hover, .menu-inner:not(.menu-inner-vertical) .dropdown ul > li > a {
     color: #FFF !important;
@@ -54,7 +56,7 @@ div.cnt-box-info .cnt-info, footer, .cnt-box-testimonials-bubble > p, [class*=bo
 
 @media (max-width: 991.98px) {
     nav.scroll-menu .menu-cnt {
-        background-color: #379cf4;
+        background-color: #000;
     }
 }
 

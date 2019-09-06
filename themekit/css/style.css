@@ -218,6 +218,9 @@ COLOR 3
 .mega-menu .icon-list li a:hover, nav.active .menu-btn, .menu-transparent .menu-cnt > ul > li:hover > a, .list-nav a:hover {
     color: #3081c8;
 }
+nav.active .menu-btn{
+    color: #000;
+}
 
 .light .dropdown > ul > li:not(:hover) > a {
     color: #3081c8 !important;
@@ -4853,7 +4856,7 @@ Medium devices (tablets, less than 992px)
         overflow: hidden;
         position: absolute;
         top: 100%;
-        background: #FFF;
+        background: #000;
         left: 0;
         width: 100%;
         transition: height .5s;
@@ -4861,7 +4864,7 @@ Medium devices (tablets, less than 992px)
     }
 
     nav.light .menu-cnt a {
-        color: rgb(68, 68, 68) !important;
+        color: rgb(255, 255, 255) !important;
     }
 
     nav.align-right .menu-cnt {
