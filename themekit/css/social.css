@@ -24,7 +24,7 @@ Table of contents
 }
 
 .feeds-loading:before {
-    content: url(../media/loader.svg);
+    content: url(../media/loader.png);
     position: absolute;
     width: 15px;
     height: 15px;
