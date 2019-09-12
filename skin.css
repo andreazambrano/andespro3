@@ -105,6 +105,9 @@ form.form-box textarea:focus, form.form-box select:focus, form.form-box input:fo
 main > section.section-color, [data-parallax] .controls-out .glide__bullets, .section-bottom-box:after, .controls-out .glide__bullets, .section-color + .section-call:before {
     background-color: rgb(238, 243, 247);
 }
+section.section-color1{
+    background-color: rgb(245, 191, 61);
+}
 
 body > header.align-center h2, .light .breadcrumb li:last-child a, .cnt-box-testimonials-bubble > p, .footer-bar > .container {
     color: rgb(238, 243, 247) !important;
