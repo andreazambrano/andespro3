@@ -69,7 +69,7 @@ a, .counter .value span:last-child, .icon-box i, .cnt-box-info .bottom-info, .me
     color: #379cf4;
 }
 .btn-text{
-    color:#000;
+    color:#379cf4;
 }
 
 .cnt-box-info .cnt-info > div > span:last-child{
@@ -89,7 +89,7 @@ form.form-box textarea:focus, form.form-box select:focus, form.form-box input:fo
 }
 
 .btn-text:hover, .accordion-list > li > a:hover, .list-nav a:hover {
-    color: #000;
+    color: #379cf4;
 }
 
 @media (max-width: 991.98px) {
@@ -524,7 +524,7 @@ LAYOUT & TYPOGRAPHY
 body, textarea {
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
 }
 
