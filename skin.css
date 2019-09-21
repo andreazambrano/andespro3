@@ -65,9 +65,13 @@ div.cnt-box-info .cnt-info, footer, .cnt-box-testimonials-bubble > p, [class*=bo
     border-color: #379cf4;
 }
 
-a, .counter .value span:last-child, .icon-box i, .cnt-box-info .bottom-info, .btn-text, .menu-cnt > ul > li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, nav:not(.menu-transparent) .lan-menu > li:hover > a, .timeline > div:hover .badge p, .cnt-box-team:hover .caption h2, .cnt-box-top-icon > i, .datepicker-panel > ul > li:hover, .extra-field:before, .menu-inner li.active > a, .menu-inner li:hover > a, .table-alpins td:first-child, .accordion-list > li > a:before, .cnt-box-blog-side .icon-list i, .cnt-box-blog-top .icon-list i, .list-nav a:before, .cnt-box .caption p b, .cnt-box-side-icon > i, .countdown h3, .countdown p, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, nav .icon-list li > i {
+a, .counter .value span:last-child, .icon-box i, .cnt-box-info .bottom-info, .menu-cnt > ul > li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, nav:not(.menu-transparent) .lan-menu > li:hover > a, .timeline > div:hover .badge p, .cnt-box-team:hover .caption h2, .cnt-box-top-icon > i, .datepicker-panel > ul > li:hover, .extra-field:before, .menu-inner li.active > a, .menu-inner li:hover > a, .table-alpins td:first-child, .accordion-list > li > a:before, .cnt-box-blog-side .icon-list i, .cnt-box-blog-top .icon-list i, .list-nav a:before, .cnt-box .caption p b, .cnt-box-side-icon > i, .countdown h3, .countdown p, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, nav .icon-list li > i {
     color: #379cf4;
 }
+.btn-text{
+    color:#000;
+}
+
 .cnt-box-info .cnt-info > div > span:last-child{
      color: #f4b843;
 }
@@ -379,10 +383,15 @@ main > .section-google-map > .container {
 
 .form-box.checkbox-bottom-right .form-checkbox {
     position: absolute;
-    bottom: 0px;
+    bottom: 39px;
     margin: 0;
+    white-space: nowrap;    
+    margin-bottom: 0px;
+    margin-left: -19px;
+    margin-right: -19px;
+    margin-top:-19px;
     white-space: nowrap;
-    right: 0;
+    right: 145px;
 }
 
 .events-list .caption .extra-field {
@@ -1232,8 +1241,12 @@ COMPONENTS
 
 button.btn-text {
     line-height: 30px;
-    font-size: 14px;
-    padding: 0;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .btn-icon.btn-circle i {
@@ -1278,8 +1291,8 @@ button.btn-text {
     font-size: 25px;
     line-height: 30px;
     width: 30px;
-    right: -45px;
-    top: 1px;
+    right: 30px;
+    top: 10px;
     opacity: 0;
     transition: all .5s;
 }
