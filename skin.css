@@ -126,7 +126,7 @@ body > header.align-center h2, .light .breadcrumb li:last-child a, .cnt-box-test
 }
 
 .controls-out.arrows-left .glide__arrow, form.form-box textarea, form.form-box select, form.form-box input, .cnt-box.boxed, .tab-nav li a, .text-list-image li > img, .pagination li.page a, .shop-menu-cnt .shop-menu {
-    box-shadow: 0 3px 23px rgba(39,79,117,.15);
+    box-shadow: 0 3px 23px rgba(39, 79, 117, 0.37);
 }
 
 .img-box, .media-box, .cnt-box-info .img-box, .section-block-full > .container > .row > .col:first-child, .cnt-call, .datepicker-top-left, .datepicker-top-right, .cnt-pricing-table, .google-map, .search-box-menu > input[type=text] {
@@ -1514,7 +1514,7 @@ button.btn-text {
 }
 
 form.form-box textarea, form.form-box select, form.form-box input {
-    border-color: rgba(39, 79, 117, 0.08);
+    border-color: rgba(39, 79, 117, 0.29);
 }
 
 .datepicker-top-left, .datepicker-top-right {
