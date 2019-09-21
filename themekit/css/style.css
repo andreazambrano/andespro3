@@ -25,6 +25,7 @@ Table of contents
 
 */
 
+
 @font-face {
     font-family: "Icons";
     src: url('../media/icons/icons.eot');
@@ -94,6 +95,19 @@ h2 {
 
 h1 + p, h2 + p, h3 + p, h4 + p, h2 + ul.icon-list, h3 + ul.icon-list, p + h3, p + .btn, p + h4, h4 + .btn, h4 + .btn-text, p + ul.icon-list, p + .btn-text, p + table, p + pre, p + img, p + .row, p + .img-box, p + .media-box, p + .cnt-box, p + .icon-links, p + ul.icon-list, .container > .row + .row, .container > div + p, .container > div + .btn, .table + .btn, .table + .btn-text, h4 + div, h4 + ul, h4 + ul.icon-list, h4 + a {
     margin-top: 15px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .row.justify-content-around {
