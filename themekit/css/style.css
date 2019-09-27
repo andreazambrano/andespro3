@@ -5296,7 +5296,7 @@ Extra small devices (portrait phones, less than 576px)
     }
 
     .table, .table tbody, .table tr, .table thead, .table th, .table td {
-        display: block;
+        display: list-item;
         border: none;
         padding: 0;
     }
