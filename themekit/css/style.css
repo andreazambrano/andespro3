@@ -53,13 +53,13 @@ body > #preloader {
 }
 
 #preloader:before {
-    content: url(../media/loader.png);
+    content: url(../media/loader1.png);
     position: absolute;
     width: 15px;
     height: 15px;
     top: 50%;
-    left: 50%;
-    margin-left: -15px;
+    left: 20%;
+    margin-left: -20px;
     margin-top: -15px;
 }
 

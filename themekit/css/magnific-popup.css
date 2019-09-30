@@ -116,13 +116,13 @@ MAGNIFIC POPUP - MAGNIFIC-POPUP.CSS
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-top: -0.8em;
-    left: 50%;
-    margin-left: -15px;
+    left: 20%;
+    margin-left: -20px;
     z-index: 1044;
     display: inline-block;
 }
 .mfp-preloader {
-    content: url(../media/loader.png);
+    content: url(../media/loader1.png);
 }
 
 .mfp-s-ready .mfp-preloader {
